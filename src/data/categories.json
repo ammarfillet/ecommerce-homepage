@@ -1,8 +1,8 @@
 [
-{ "id": 1, "name": "Sayuran Hijau", "items": 42, "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop" },
-{ "id": 2, "name": "Umbi & Bawang", "items": 37, "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1200&auto=format&fit=crop" },
-{ "id": 3, "name": "Buah & Terong", "items": 29, "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop" },
-{ "id": 4, "name": "Daun & Rempah", "items": 26, "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?q=80&w=1200&auto=format&fit=crop" },
-{ "id": 5, "name": "Cabai & Paprika", "items": 18, "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop" },
-{ "id": 6, "name": "Paket Hemat", "items": 8, "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?q=80&w=1200&auto=format&fit=crop" }
+{ "id": 1, "name": "Sayuran Hijau", "items": 42, "image": "https:/public/images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop" },
+{ "id": 2, "name": "Umbi & Bawang", "items": 37, "image": "https:/public/images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1200&auto=format&fit=crop" },
+{ "id": 3, "name": "Buah & Terong", "items": 29, "image": "https:/public/images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop" },
+{ "id": 4, "name": "Daun & Rempah", "items": 26, "image": "https:/public/images.unsplash.com/photo-1464965911861-746a04b4bca6?q=80&w=1200&auto=format&fit=crop" },
+{ "id": 5, "name": "Cabai & Paprika", "items": 18, "image": "https:/public/images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop" },
+{ "id": 6, "name": "Paket Hemat", "items": 8, "image": "https:/public/images.unsplash.com/photo-1464965911861-746a04b4bca6?q=80&w=1200&auto=format&fit=crop" }
 ]

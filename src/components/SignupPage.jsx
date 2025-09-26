@@ -58,7 +58,7 @@ export default function SignupPage() {
             {/* Left: Image */}
             <div className="bg-[#E3F0F3] rounded-sm p-8 flex items-center justify-center order-2 lg:order-1">
               <img
-                src="/images/spinach.png"
+                src="public/images/spinach.png"
                 alt="Fresh spinach"
                 className="w-full h-auto object-contain max-w-md"
               />
