@@ -10,3 +10,34 @@
 .btn-primary { @apply btn bg-primary text-white hover:bg-black; }
 .btn-ghost { @apply btn bg-white text-primary border border-gray-200 hover:border-gray-300; }
 .badge { @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-gray-100 text-gray-700; }
+
+/* Hero section custom styles */
+.hero-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media (max-width: 1023px) {
+  .hero-img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.hero-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
