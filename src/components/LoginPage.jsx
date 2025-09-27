@@ -60,7 +60,7 @@ export default function LoginPage() {
             {/* Left: Image */}
             <div className="bg-[#E3F0F3] rounded-sm p-8 flex items-center justify-center order-2 lg:order-1">
               <img
-                src="public/images/spinach.png"
+                src="ecommerce-homepage/public/images/spinach.png"
                 alt="Fresh spinach"
                 className="w-full h-auto object-contain max-w-md"
               />

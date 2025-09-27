@@ -2,14 +2,14 @@ import { Heart, Eye, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 export default function ExploreProducts() {
   const products = [
-    { id: 1, name: 'Minyak Bimoli 1L', price: 25000, compareAt: 30000, rating: 4.5, reviews: 120, image: 'public/imagesexplore/bimoli.png', isNew: true },
-    { id: 2, name: 'Daging Sapi Cianjur 1kg', price: 120000, rating: 4.8, reviews: 85, image: 'public/imagesexplore/dagingsapi.png' },
-    { id: 3, name: 'Bawang Merah 1kg', price: 35000, compareAt: 40000, rating: 4.2, reviews: 200, image: 'public/images/bawangmerah.png' },
-    { id: 4, name: 'Kacang Panjang 1 Ikat', price: 15000, rating: 4.0, reviews: 150, image: 'public/imagesexplore/kacangpanjang.png', isNew: true },
-    { id: 5, name: 'Wortel 1kg', price: 25000, rating: 4.3, reviews: 90, image: 'public/imagesexplore/wortel.png' },
-    { id: 6, name: 'Bawang Bombay 1kg', price: 30000, compareAt: 35000, rating: 4.1, reviews: 110, image: 'public/imagesexplore/bombay.png' },
-    { id: 7, name: 'Semangka 1 Buah', price: 45000, rating: 4.6, reviews: 75, image: 'public/imagesexplore/semongko.png', isNew: true },
-    { id: 8, name: 'Jeruk Medan 1kg', price: 28000, rating: 4.4, reviews: 130, image: 'public/imagesexplore/jeruk.png' },
+    { id: 1, name: 'Minyak Bimoli 1L', price: 25000, compareAt: 30000, rating: 4.5, reviews: 120, image: 'ecommerce-homepage/public/imagesexplore/bimoli.png', isNew: true },
+    { id: 2, name: 'Daging Sapi Cianjur 1kg', price: 120000, rating: 4.8, reviews: 85, image: 'ecommerce-homepage/public/imagesexplore/dagingsapi.png' },
+    { id: 3, name: 'Bawang Merah 1kg', price: 35000, compareAt: 40000, rating: 4.2, reviews: 200, image: 'ecommerce-homepage/public/images/bawangmerah.png' },
+    { id: 4, name: 'Kacang Panjang 1 Ikat', price: 15000, rating: 4.0, reviews: 150, image: 'ecommerce-homepage/public/imagesexplore/kacangpanjang.png', isNew: true },
+    { id: 5, name: 'Wortel 1kg', price: 25000, rating: 4.3, reviews: 90, image: 'ecommerce-homepage/public/imagesexplore/wortel.png' },
+    { id: 6, name: 'Bawang Bombay 1kg', price: 30000, compareAt: 35000, rating: 4.1, reviews: 110, image: 'ecommerce-homepage/public/imagesexplore/bombay.png' },
+    { id: 7, name: 'Semangka 1 Buah', price: 45000, rating: 4.6, reviews: 75, image: 'ecommerce-homepage/public/imagesexplore/semongko.png', isNew: true },
+    { id: 8, name: 'Jeruk Medan 1kg', price: 28000, rating: 4.4, reviews: 130, image: 'ecommerce-homepage/public/imagesexplore/jeruk.png' },
 
   ];
 
