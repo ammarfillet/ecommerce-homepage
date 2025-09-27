@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
           {/* Positioned image on the right */}
           <img
-            src="ecommerce-homepage/public/images/spinach.png"
+            src="ecommerce-homepage/images/spinach.png"
             alt="Bayam segar"
             className="hero-img"
           />

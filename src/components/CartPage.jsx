@@ -10,7 +10,7 @@ const defaultItems = [
     unit: '1 Buah',
     price: 20000,
     qty: 1,
-    image: 'ecommerce-homepage/public/imagesexplore/semongko.png'
+    image: 'ecommerce-homepage/imagesexplore/semongko.png'
   },
   {
     id: 'jeruk-medan',
@@ -18,7 +18,7 @@ const defaultItems = [
     unit: '1 Kg',
     price: 20000,
     qty: 2,
-    image: 'ecommerce-homepage/public/imagesexplore/jeruk.png'
+    image: 'ecommerce-homepage/imagesexplore/jeruk.png'
   }
 ];
 

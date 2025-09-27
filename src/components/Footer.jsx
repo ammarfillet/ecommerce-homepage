@@ -70,7 +70,7 @@ export default function Footer() {
                 <p className="mt-2 text-sm text-white/70">Save $3 with App New User Only</p>
                 <div className="mt-4 flex flex-col sm:flex-row gap-4">
                   <img
-                    src="ecommerce-homepage/public/imagesfooter/qrcodee.png"
+                    src="ecommerce-homepage/imagesfooter/qrcodee.png"
                     alt="QR Code"
                     className="w-32 h-32 rounded-lg"
                   />
@@ -81,7 +81,7 @@ export default function Footer() {
                       aria-label="Get it on Google Play"
                     >
                       <img
-                        src="ecommerce-homepage/public/imagesfooter/getitgp.png"
+                        src="ecommerce-homepage/imagesfooter/getitgp.png"
                         alt="Get it on Google Play"
                         className="h-11 w-auto"
                       />
@@ -92,7 +92,7 @@ export default function Footer() {
                       aria-label="Download on the App Store"
                     >
                       <img
-                        src="ecommerce-homepage/public/imagesfooter/dwappstore.png"
+                        src="ecommerce-homepage/imagesfooter/dwappstore.png"
                         alt="Download on the App Store"
                         className="h-11 w-auto"
                       />

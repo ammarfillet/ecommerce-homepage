@@ -1,10 +1,10 @@
 import { Heart, Eye } from 'lucide-react';
 
 const products = [
-  { id: 1, name: 'Kentang Gunung Sindur 1kg', price: 20000, image: 'ecommerce-homepage/public/images/kentangsindur.png', rating: 4.8, reviews: 245 },
-  { id: 2, name: 'Seledri 1 ikat', price: 10000, image: 'ecommerce-homepage/public/images/seledri.png', rating: 4.7, reviews: 189 },
-  { id: 3, name: 'Timun', price: 14000, compareAt: 20000, image: 'ecommerce-homepage/public/images/timun.png', rating: 4.6, reviews: 156 },
-  { id: 4, name: 'Dada Ayam 1kg', price: 55000, image: 'ecommerce-homepage/public/images/dadaayam.png', rating: 4.9, reviews: 312 },
+  { id: 1, name: 'Kentang Gunung Sindur 1kg', price: 20000, image: 'ecommerce-homepage/images/kentangsindur.png', rating: 4.8, reviews: 245 },
+  { id: 2, name: 'Seledri 1 ikat', price: 10000, image: 'ecommerce-homepage/images/seledri.png', rating: 4.7, reviews: 189 },
+  { id: 3, name: 'Timun', price: 14000, compareAt: 20000, image: 'ecommerce-homepage/images/timun.png', rating: 4.6, reviews: 156 },
+  { id: 4, name: 'Dada Ayam 1kg', price: 55000, image: 'ecommerce-homepage/images/dadaayam.png', rating: 4.9, reviews: 312 },
 ];
 
 export default function BestSellingProducts() {

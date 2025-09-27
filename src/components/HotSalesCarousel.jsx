@@ -7,16 +7,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const products = [
-  { id: 1, name: 'Bawang Putih Cimahi 1kg', price: 48000, compareAt: 60000, discount: 20, rating: 4.8, reviews: 245, image: 'ecommerce-homepage/public/images/bawangputih.png' },
-  { id: 2, name: 'Terong Sukabumi 1kg', price: 9000, compareAt: 10000, discount: 10, rating: 4.7, reviews: 189, image: 'ecommerce-homepage/public/images/terong.jpg' },
-  { id: 3, name: 'Bayam Bandung 1 ikat', price: 7000, compareAt: 10000, discount: 30, rating: 4.6, reviews: 156, image: 'ecommerce-homepage/public/images/spinach.png' },
-  { id: 4, name: 'Garam Meja 500g', price: 18000, compareAt: 20000, discount: 10, rating: 4.9, reviews: 312, image: 'ecommerce-homepage/public/images/garammeja.png' },
-  { id: 5, name: 'Bawang Merah Brebes 500g', price: 22000, compareAt: 26000, discount: 15, rating: 4.8, reviews: 278, image: 'ecommerce-homepage/public/images/bawangmerah.png' },
-  { id: 6, name: 'Tomat Lokal 1kg', price: 11000, compareAt: 12500, discount: 12, rating: 4.7, reviews: 198, image: 'ecommerce-homepage/public/images/tomat.png' },
-  { id: 7, name: 'Cabai Merah Keriting 250g', price: 15000, compareAt: 18500, discount: 18, rating: 4.5, reviews: 134, image: 'ecommerce-homepage/public/images/cabai.png' },
-  { id: 8, name: 'Minyak Goreng Sawit 1L', price: 16500, compareAt: 18500, discount: 10, rating: 4.6, reviews: 167, image: 'ecommerce-homepage/public/images/minyakgoreng.png' },
-  { id: 9, name: 'Beras Pandan Wangi 5kg', price: 78000, compareAt: 85000, discount: 8, rating: 4.8, reviews: 223, image: 'ecommerce-homepage/public/images/beras.png' },
-  { id: 10, name: 'Kentang Dieng 1kg', price: 22500, compareAt: 25000, discount: 10, rating: 4.7, reviews: 189, image: 'ecommerce-homepage/public/images/kentang.png' },
+  { id: 1, name: 'Bawang Putih Cimahi 1kg', price: 48000, compareAt: 60000, discount: 20, rating: 4.8, reviews: 245, image: 'ecommerce-homepage/images/bawangputih.png' },
+  { id: 2, name: 'Terong Sukabumi 1kg', price: 9000, compareAt: 10000, discount: 10, rating: 4.7, reviews: 189, image: 'ecommerce-homepage/images/terong.jpg' },
+  { id: 3, name: 'Bayam Bandung 1 ikat', price: 7000, compareAt: 10000, discount: 30, rating: 4.6, reviews: 156, image: 'ecommerce-homepage/images/spinach.png' },
+  { id: 4, name: 'Garam Meja 500g', price: 18000, compareAt: 20000, discount: 10, rating: 4.9, reviews: 312, image: 'ecommerce-homepage/images/garammeja.png' },
+  { id: 5, name: 'Bawang Merah Brebes 500g', price: 22000, compareAt: 26000, discount: 15, rating: 4.8, reviews: 278, image: 'ecommerce-homepage/images/bawangmerah.png' },
+  { id: 6, name: 'Tomat Lokal 1kg', price: 11000, compareAt: 12500, discount: 12, rating: 4.7, reviews: 198, image: 'ecommerce-homepage/images/tomat.png' },
+  { id: 7, name: 'Cabai Merah Keriting 250g', price: 15000, compareAt: 18500, discount: 18, rating: 4.5, reviews: 134, image: 'ecommerce-homepage/images/cabai.png' },
+  { id: 8, name: 'Minyak Goreng Sawit 1L', price: 16500, compareAt: 18500, discount: 10, rating: 4.6, reviews: 167, image: 'ecommerce-homepage/images/minyakgoreng.png' },
+  { id: 9, name: 'Beras Pandan Wangi 5kg', price: 78000, compareAt: 85000, discount: 8, rating: 4.8, reviews: 223, image: 'ecommerce-homepage/images/beras.png' },
+  { id: 10, name: 'Kentang Dieng 1kg', price: 22500, compareAt: 25000, discount: 10, rating: 4.7, reviews: 189, image: 'ecommerce-homepage/images/kentang.png' },
 ];
 
 export default function HotSalesCarousel() {
