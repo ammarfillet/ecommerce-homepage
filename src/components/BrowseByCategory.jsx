@@ -3,12 +3,12 @@ import { useState } from 'react';
 
 // Category data
 const categories = [
-  { id: 'vegetables', name: 'Sayur-sayuran', image: 'public/icons/sayur.png' },
-  { id: 'drinks', name: 'Minuman dan Susu', image: 'public/icons/minuman.png' },
-  { id: 'oils', name: 'Minyak dan bumbu', image: 'public/icons/bumbu.png' },
-  { id: 'fruits', name: 'Buah-buahan', image: 'public/icons/buah.png' },
-  { id: 'meat', name: 'Protein hewani', image: 'public/icons/hewan.png' },
-  { id: 'grains', name: 'Beras dan Bijian', image: 'public/icons/bijian.png' },
+  { id: 'vegetables', name: 'Sayur-sayuran', image: 'ecommerce-homepage/icons/sayur.png' },
+  { id: 'drinks', name: 'Minuman dan Susu', image: 'ecommerce-homepage/icons/minuman.png' },
+  { id: 'oils', name: 'Minyak dan bumbu', image: 'ecommerce-homepage/icons/bumbu.png' },
+  { id: 'fruits', name: 'Buah-buahan', image: 'ecommerce-homepage/icons/buah.png' },
+  { id: 'meat', name: 'Protein hewani', image: 'ecommerce-homepage/icons/hewan.png' },
+  { id: 'grains', name: 'Beras dan Bijian', image: 'ecommerce-homepage/icons/bijian.png' },
 ];
 
 export default function BrowseByCategory({ onSelect }) {
