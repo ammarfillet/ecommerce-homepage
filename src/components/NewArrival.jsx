@@ -16,7 +16,7 @@ export default function NewArrival() {
           {/* Big Card - Olive Oil */}
           <div className="relative bg-black rounded-xl overflow-hidden h-96">
             <img
-              src="ecommerce-homepage/imagesNA/zaitun.png"
+              src="/imagesNA/zaitun.png"
               alt="Minyak Zaitun"
               className="w-full h-full object-contain"
             />
@@ -50,7 +50,7 @@ export default function NewArrival() {
                 </div>
                 <div className="relative">
                   <img
-                    src="ecommerce-homepage/imagesNA/sirlo.png"
+                    src="/imagesNA/sirlo.png"
                     alt="Daging Sapi"
                     className="w-full h-full object-contain"
                   />
@@ -74,7 +74,7 @@ export default function NewArrival() {
                   </div>
                   <div className="relative">
                     <img
-                      src="ecommerce-homepage/imagesNA/gulaku.png"
+                      src="/imagesNA/gulaku.png"
                       alt="Gula Gulaku"
                       className="w-full h-full object-contain"
                     />
@@ -96,7 +96,7 @@ export default function NewArrival() {
                   </div>
                   <div className="relative">
                     <img
-                      src="ecommerce-homepage/imagesNA/terongbg.png"
+                      src="/imagesNA/terongbg.png"
                       alt="Terong"
                       className="w-full h-full object-contain"
                     />

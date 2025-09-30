@@ -9,7 +9,7 @@ return (
 <p className="mt-2 text-gray-600">Paket combo sayur hemat + gratis ongkir min. belanja Rp50.000.</p>
 <a href="#" className="btn-primary mt-4">Cek Semua Promo</a>
 </div>
-<img className="w-full rounded-xl object-cover h-56 lg:h-72" src="https:/ecommerce-homepage/images.unsplash.com/photo-1505252778478-2f7a95b6c399?q=80&w=1600&auto=format&fit=crop" alt="Promo sayur" />
+<img className="w-full rounded-xl object-cover h-56 lg:h-72" src="https://images.unsplash.com/photo-1505252778478-2f7a95b6c399?q=80&w=1600&auto=format&fit=crop" alt="Promo sayur" />
 </div>
 </div>
 </section>

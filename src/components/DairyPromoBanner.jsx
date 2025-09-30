@@ -92,7 +92,7 @@ export default function DairyPromoBanner() {
             {/* Right Image */}
             <div className="lg:absolute lg:right-0 lg:bottom-0 lg:w-1/2 lg:h-full flex items-end justify-center lg:justify-end" style={{ zIndex: 10 }}>
               <img
-                src="ecommerce-homepage/images/tuangsusu.png"
+                src="/images/tuangsusu.png"
                 alt="Milk being poured into a glass"
                 className="h-[90%] lg:h-[110%] object-contain"
               />
