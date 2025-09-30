@@ -13,21 +13,32 @@ export const useAuth = () => {
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // Tambahkan loading state
   const [cart, setCart] = useState(() => {
     const saved = localStorage.getItem('cart.items');
     return saved ? JSON.parse(saved) : [];
   });
 
   useEffect(() => {
+    // Load from sessionStorage on mount
     const session = sessionStorage.getItem('auth.session');
+    
     if (session) {
-      const parsed = JSON.parse(session);
-      setUser(parsed);
-      setIsAuthenticated(true);
+      try {
+        const parsed = JSON.parse(session);
+        setUser(parsed);
+        setIsAuthenticated(true);
+      } catch (error) {
+        console.error('Error parsing session:', error);
+        sessionStorage.removeItem('auth.session');
+      }
     }
+    
+    setIsLoading(false); // Set loading selesai
   }, []);
 
   const login = (credentials) => {
+    // For demo, hardcoded check
     if (credentials.email === 'user@admin.com' && credentials.password === 'admin1') {
       const session = {
         email: 'user@admin.com',
@@ -45,7 +56,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     sessionStorage.removeItem('auth.session');
-    localStorage.removeItem('auth.session'); // Hapus juga dari localStorage jika ada
+    localStorage.removeItem('auth.session');
     setUser(null);
     setIsAuthenticated(false);
   };
@@ -101,6 +112,7 @@ export const AuthProvider = ({ children }) => {
   const value = {
     user,
     isAuthenticated,
+    isLoading, // Export loading state
     login,
     logout,
     getCurrentUser,
