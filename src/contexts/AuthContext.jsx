@@ -19,8 +19,7 @@ export const AuthProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    // Load from localStorage on mount
-    const session = localStorage.getItem('auth.session');
+    const session = sessionStorage.getItem('auth.session');
     if (session) {
       const parsed = JSON.parse(session);
       setUser(parsed);
@@ -29,7 +28,6 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = (credentials) => {
-    // For demo, hardcoded check
     if (credentials.email === 'user@admin.com' && credentials.password === 'admin1') {
       const session = {
         email: 'user@admin.com',
@@ -37,7 +35,7 @@ export const AuthProvider = ({ children }) => {
         role: 'admin',
         loggedInAt: new Date().toISOString()
       };
-      localStorage.setItem('auth.session', JSON.stringify(session));
+      sessionStorage.setItem('auth.session', JSON.stringify(session));
       setUser(session);
       setIsAuthenticated(true);
       return { success: true };
@@ -46,7 +44,8 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
-    localStorage.removeItem('auth.session');
+    sessionStorage.removeItem('auth.session');
+    localStorage.removeItem('auth.session'); // Hapus juga dari localStorage jika ada
     setUser(null);
     setIsAuthenticated(false);
   };
